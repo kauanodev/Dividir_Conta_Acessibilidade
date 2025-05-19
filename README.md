@@ -1,0 +1,1 @@
+[![Watch the video](https://static.wikia.nocookie.net/herois/images/f/f1/Charlie_Brown_%28current%29.png/revision/latest/thumbnail/width/360/height/360?cb=20210910195513&path-prefix=pt-br)](https://www.youtube.com/embed/vwKTRLS8cSA?si=X7mkHfOq2kmE1SK0)
