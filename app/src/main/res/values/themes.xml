@@ -15,4 +15,19 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="CustomActionBar" parent="Widget.AppCompat.ActionBar">
+        <!-- Permite ajuste com texto escalável -->
+        <item name="height">wrap_content</item>
+        <!-- Garante área mínima de toque -->
+        <item name="minHeight">56dp</item>
+        <!-- Define cor de fundo, se quiser -->
+        <item name="background">?attr/colorPrimary</item>
+        <!-- Estilo opcional para o título -->
+        <item name="titleTextStyle">@style/CustomActionBarTitle</item>
+    </style>
+
+    <style name="CustomActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item> <!-- Texto grande e escalável -->
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 </resources>
