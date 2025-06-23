@@ -41,28 +41,30 @@
         app:srcCompat="?attr/actionModeShareDrawable" />
 
     <EditText
-        android:id="@+id/edtConta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
-        android:ems="10"
-        android:hint="Insira o valor da conta"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/edtPessoas" />
+    android:id="@+id/edtPessoas"
+    android:layout_width="250dp"
+    android:layout_height="48dp"
+    android:ems="10"
+    android:hint="Quantidade de Pessoas"
+    android:inputType="number"
+    android:importantForAccessibility="yes"
+    android:contentDescription="Campo para digitar a quantidade de pessoas"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/textView" />
 
-    <EditText
-        android:id="@+id/edtPessoas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:ems="10"
-        android:hint="Quantidade de Pessoas"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+<EditText
+    android:id="@+id/edtConta"
+    android:layout_width="250dp"
+    android:layout_height="48dp"
+    android:ems="10"
+    android:hint="Insira o valor da conta"
+    android:inputType="numberDecimal"
+    android:importantForAccessibility="yes"
+    android:contentDescription="Campo para digitar o valor da conta"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/edtPessoas" />
 
     <TextView
         android:id="@+id/txtResultado"
